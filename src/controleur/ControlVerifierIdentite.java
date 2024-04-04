@@ -10,7 +10,7 @@ public class ControlVerifierIdentite {
 	}
 
 	public boolean verifierIdentite(String nomVendeur) {
-		 Gaulois Vendeur = village.trouverHabitant(nomVendeur);
+		 return(village.trouverHabitant(nomVendeur) != null);
 		
 	}
 }
